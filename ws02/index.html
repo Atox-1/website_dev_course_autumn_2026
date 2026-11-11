@@ -1,6 +1,25 @@
 <!DOCTYPE html>
     <html lang="en">
     <head>
+        p {
+      color: orange;
+    }
+    
+    body {
+      background-color: darkgray;
+    }
+    
+    h1 {
+      font-size: 2em;
+    }
+     
+        .content-box {
+  padding: 20px;
+  margin: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+}  
+        
         <title>My First HTML Page</title>
     </head>
     <body>
@@ -10,15 +29,70 @@
         <img src="ws01/taxi2g.jpg" alt="Image of taxi2g" width="500" height="300">
 
  <h2>My hobbies</h2>
+        <style>
+            h2 {
+                color: red;
+            }
+            </style>
     <ul>
         <li>Gaming</li>
         <li>Technology</li>
         <li>Boxing</li>
     </ul>
 
+        <div class="content-box">
+  <h3>A third heading</h3>
+  <p>This is an amazing paragraph inside a div element.</p>
+</div>
+        
 <a href="https://www.youtube.com">Watch youtube</a>
 
   <table>
+      
+      table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    
+    th {
+      background-color: #f2f2f2;
+    }
+    
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    label {
+      font-weight: bold;
+    }
+    
+    input[type="text"], input[type="email"] {
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+      
         <tr>
             <th>Course</th>
             <th>Subject</th>
